@@ -1,0 +1,24 @@
+
+// Git Commands Starts //
+
+// To start Browser Sync
+ browser-sync start --server --directory --files "*"
+
+ // To check Status of Files Local Server or Remote
+ git status
+
+ // To Add All New Files For Commit
+ git add .
+
+ // To Commit New Files For Pushing To Git Remote Server
+ git commit -m "Discription/Narration."
+
+ // To Push a File To Git Remote Server
+ git push
+
+ // To Pull File(s) From Git Remote Server to Local Server
+ git pull
+
+ // To list Files
+ ls
+ 
