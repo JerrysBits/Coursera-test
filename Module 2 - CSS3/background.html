@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background</title>
+	<style type="text/css">
+		#bg {
+			width: 500px;
+			height: 500px;
+			background-color: blue;  /*Overwritten by background*/
+			background-image: url("images/TheJerrys_Logo.png");
+			background-repeat: no-repeat;  /*Overwritten by background*/
+			background-position: bottom right;  /*Overwritten by background*/
+			background: url('images/TheJerrys_Logo.png') no-repeat center gray;
+			color: white;
+			text-align: center;
+			font-size: 150%;
+			padding-top: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>The Background Property</h1>
+
+	<div id="bg">Background properties are fun!</div>
+
+</body>
+</html>
